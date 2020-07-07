@@ -1,0 +1,18 @@
+{
+  "name": "http_server",
+  "version": "1.0.0",
+  "description": "A Node server with http package",
+  "main": "index.js",
+  "author": "Joseph",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
